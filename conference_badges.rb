@@ -16,8 +16,12 @@ def assign_rooms(array)
   counter = 1
   array.each do |speaker|
     arr << ("Hello, #{speaker}! You'll be assigned to room #{counter}!")
-    counter += 1
+    counter += 1 
 
   end
   return arr
+end
+def printer(array)
+  batch_badge_creator(array).each { |id| puts id }
+  assign_rooms(array).each { |id| puts id }
 end
