@@ -1,4 +1,4 @@
-speakers = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
+speakers = ['Edsger', 'nAda', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
 
 
 def badge_maker(speaker)
@@ -15,7 +15,7 @@ def assign_rooms(array)
   arr = []
   counter = 1
   array.each do |speaker|
-    arr << ("Hello, #{speaker}! You'll be assigned to room number #{counter}!")
+    arr << ("Hello, #{speaker}! You'll be assigned to room #{counter}!")
     counter += 1
 
   end
